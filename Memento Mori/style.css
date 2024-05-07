@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    font-family: "EB Garamond", serif;
+}
+.red{
+background-color: crimson;
+/* margin: 50px 100px 10px 150px;
+padding: 20px 100px 50px;
+border: 10px dashed yellow; */
+}
+.blue{
+background-color: blue;
+    /* position: relative;   */
+    /* position absolute: basically you can move it anywhere on the screen */
+    /* position relative: basically you can move it from where its origin was */
+    /* position fixed: stays where ever you put it, no matter if you scroll */
+    /* position sticky: only moves when the original position is off the page its like fixed */
+left: 100px;
+top: 50px;
+/* visibility: hidden; height: 200px; keeps the space but the element is gone*/
+/* display: none; makes the div completely gone any space will be replaced */
+/* z-index: -1; */
+/* z-index: -1; moves whatever back or front */
+}
+.green{
+    background-color: aquamarine;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 900px;
+    left:60%;
+    }
+.box{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    /*     display: inline-block; */
+}
+#wrapper{
+    background-color: beige;
+    width: 50%;
+    margin: auto;
+    padding: 10; 
+}
+.flex-container{
+    display: flex;
+    justify-content:
+    space-evenly ;
+    flex-wrap: wrap ;
+}
+.mySketch1{
+    width: 100% !important;
+    height: 100% !important;
+}
